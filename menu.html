@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Los Caballeros del León</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Café Los Caballeros del León</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="quienes-somos.html">Quiénes Somos</a></li>
+                <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                <li class="nav-item"><a class="nav-link" href="menu.html">Menú</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto.html">Contáctenos</a></li>
+                <li class="nav-item"><a class="nav-link" href="reseñas.html">Reseñas</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal - Menú -->
+    <section class="container my-5">
+        <h2>Nuestro Menú</h2>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="images/cafe1.jpg" class="card-img-top" alt="Café 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Café con Leche</h5>
+                        <p class="card-text">Delicioso café con leche para empezar el día.</p>
+                        <p class="card-text">Precio de S/.5.00.</p>
+                        <button class="btn btn-primary add-to-invoice" data-product="Café con Leche" data-price="5.00">Pedir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="images/cafe2.jpg" class="card-img-top" alt="Café 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Café Espresso</h5>
+                        <p class="card-text">Intenso y aromático café espresso.</p>
+                        <p class="card-text">Precio de S/.6.00.</p>
+                        <button class="btn btn-primary add-to-invoice" data-product="Café Espresso" data-price="6.00">Pedir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="images/cafe3.jpg" class="card-img-top" alt="Café 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Café Americano</h5>
+                        <p class="card-text">Clásico café americano.</p>
+                        <p class="card-text">Precio de S/.7.00.</p>
+                        <button class="btn btn-primary add-to-invoice" data-product="Café Americano" data-price="7.00">Pedir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="images/cafe4.jpg" class="card-img-top" alt="Café 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Café Mocha</h5>
+                        <p class="card-text">Delicioso café mocha con chocolate.</p>
+                        <p class="card-text">Precio de S/.8.00.</p>
+                        <button class="btn btn-primary add-to-invoice" data-product="Café Mocha" data-price="8.00">Pedir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="images/cafe5.jpg" class="card-img-top" alt="Café 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Café Latte</h5>
+                        <p class="card-text">Suave y cremoso café latte.</p>
+                        <p class="card-text">Precio de S/.8.00.</p>
+                        <button class="btn btn-primary add-to-invoice" data-product="Café Latte" data-price="8.00">Pedir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="images/cafe6.jpg" class="card-img-top" alt="Café 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Café Cappuccino</h5>
+                        <p class="card-text">Delicioso café cappuccino con espuma.</p>
+                        <p class="card-text">Precio de S/.8.00.</p>
+                        <button class="btn btn-primary add-to-invoice" data-product="Café Cappuccino" data-price="8.00">Pedir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="images/cafe7.jpg" class="card-img-top" alt="Café 7">
+                    <div class="card-body">
+                        <h5 class="card-title">Café Macchiato</h5>
+                        <p class="card-text">Exquisito café macchiato.</p>
+                        <p class="card-text">Precio de S/.8.00.</p>
+                        <button class="btn btn-primary add-to-invoice" data-product="Café Macchiato" data-price="8.00">Pedir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="images/cafe8.jpg" class="card-img-top" alt="Café 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Café Ristretto</h5>
+                        <p class="card-text">Intenso café ristretto.</p>
+                        <p class="card-text">Precio de S/.9.00.</p>
+                        <button class="btn btn-primary add-to-invoice" data-product="Café Ristretto" data-price="9.00">Pedir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="images/cafe9.jpg" class="card-img-top" alt="Café 9">
+                    <div class="card-body">
+                        <h5 class="card-title">Café Doble</h5>
+                        <p class="card-text">Fuerte café doble para los amantes del café.</p>
+                        <p class="card-text">Precio de S/.9.00.</p>
+                        <button class="btn btn-primary add-to-invoice" data-product="Café Doble" data-price="9.00">Pedir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="images/cafe10.jpg" class="card-img-top" alt="Café 10">
+                    <div class="card-body">
+                        <h5 class="card-title">Café Frappé</h5>
+                        <p class="card-text">Refrescante café frappé.</p>
+                        <p class="card-text">Precio de S/.7.00.</p>
+                        <button class="btn btn-primary add-to-invoice" data-product="Café Frappé" data-price="7.00">Pedir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="images/cafe11.jpg" class="card-img-top" alt="Café 11">
+                    <div class="card-body">
+                        <h5 class="card-title">Café con Menta</h5>
+                        <p class="card-text">Exquisito café con menta.</p>
+                        <p class="card-text">Precio de S/.8.00.</p>
+                        <button class="btn btn-primary add-to-invoice" data-product="Café con Menta" data-price="8.00">Pedir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="images/cafe12.jpg" class="card-img-top" alt="Café 12">
+                    <div class="card-body">
+                        <h5 class="card-title">Café con Naranja</h5>
+                        <p class="card-text">Innovador café con naranja.</p>
+                        <p class="card-text">Precio de S/.8.00.</p>
+                        <button class="btn btn-primary add-to-invoice" data-product="Café con Naranja" data-price="8.00">Pedir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- Agrega los demás productos de la misma manera -->
+        </div>
+    </section>
+
+    <!-- Contenido Principal - Emitir Factura -->
+    <section class="container my-5">
+        <h2>Emitir Factura</h2>
+        <form id="invoice-form">
+            <div class="form-group">
+                <label for="customer-name">Nombre del Cliente</label>
+                <input type="text" class="form-control" id="customer-name" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Imprimir Recibo</button>
+        </form>
+
+        <div id="invoice-result" class="mt-5"></div>
+        <div id="invoice-history" class="mt-5"></div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer class="bg-light text-center py-4">
+        <p>&copy; 2024 Café Los Caballeros del León. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        const orders = [];
+
+        function updateInvoice() {
+            let total = 0;
+            let invoiceHtml = `
+                <h3>Factura</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+            
+            orders.forEach(order => {
+                const subtotal = order.price * order.quantity;
+                total += subtotal;
+                invoiceHtml += `
+                    <tr>
+                        <td>${order.product}</td>
+                        <td>S/.${order.price.toFixed(2)}</td>
+                        <td>${order.quantity}</td>
+                        <td>S/.${subtotal.toFixed(2)}</td>
+                    </tr>
+                `;
+            });
+
+            invoiceHtml += `
+                    </tbody>
+                </table>
+                <p><strong>Total:</strong> S/.${total.toFixed(2)}</p>
+            `;
+
+            document.getElementById('invoice-result').innerHTML = invoiceHtml;
+        }
+
+        document.querySelectorAll('.add-to-invoice').forEach(button => {
+            button.addEventListener('click', function() {
+                const product = this.getAttribute('data-product');
+                const price = parseFloat(this.getAttribute('data-price'));
+                const existingOrder = orders.find(order => order.product === product);
+
+                if (existingOrder) {
+                    existingOrder.quantity += 1;
+                } else {
+                    orders.push({ product, price, quantity: 1 });
+                }
+
+                updateInvoice();
+            });
+        });
+
+        document.getElementById('invoice-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const customerName = document.getElementById('customer-name').value;
+            let total = 0;
+            
+            let invoiceHtml = `
+                <h3>Factura</h3>
+                <p><strong>Nombre del Cliente:</strong> ${customerName}</p>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+            
+            orders.forEach(order => {
+                const subtotal = order.price * order.quantity;
+                total += subtotal;
+                invoiceHtml += `
+                    <tr>
+                        <td>${order.product}</td>
+                        <td>S/.${order.price.toFixed(2)}</td>
+                        <td>${order.quantity}</td>
+                        <td>S/.${subtotal.toFixed(2)}</td>
+                    </tr>
+                `;
+            });
+
+            invoiceHtml += `
+                    </tbody>
+                </table>
+                <p><strong>Total:</strong> S/.${total.toFixed(2)}</p>
+            `;
+
+            document.getElementById('invoice-history').innerHTML += `<div class="mt-5">${invoiceHtml}</div>`;
+            document.getElementById('invoice-result').innerHTML = '';
+
+            orders.length = 0; // Clear orders for new invoice
+            document.getElementById('customer-name').value = ''; // Clear customer name input
+        });
+
+        updateInvoice(); // Initial update to ensure the invoice section is always in sync
+    </script>
+</body>
+</html>
